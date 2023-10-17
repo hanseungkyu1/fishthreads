@@ -13,6 +13,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public List<String> getHello() {
-        return Arrays.asList("민물/바다 낚시관련 SNS 입니다.", "테스트 중입니다.");
+        return Arrays.asList("민물/바다낚시에 관한 모든 것", "어떤 컨텐츠를?.?");
     }
 }

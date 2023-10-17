@@ -1,0 +1,25 @@
+# local
+spring:
+  profiles: local
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%-5level] [%logger.%method:line%line] - %msg%n"
+  level:
+    root: debug
+    sql: debug
+    web: debug
+    org:
+      springframework: info
+#    jdbc
+#    log4jdbc.log4j2
+
+---
+# dev
+#spring:
+#  config:
+#    activate:
+#      on-profile: dev
+
+---
+# prd
